@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(14, 12, 12);
+}
+
+section {
+    background-color: whitesmoke;
+    width: 520px;
+    border-radius: 3%;
+    position: absolute;
+    top: 35%;
+    left: 32%;
+}
+
+img { 
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 3%;
+    left: 40%;
+}
+
+
+
+

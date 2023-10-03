@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            text-align: center;
+
+        }
+
+        nav { 
+            background-color: rgb(102,102,102);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.822);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            border-radius: 15px 15px 0px 0px;
+            margin: 10px;
+        }
+
+        #assunto > p {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 2px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        article > aside {
+            background-color: rgb(139, 139, 139);
+            text-align: center;
+            padding: 1px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            font-style: italic;
+            text-align: center;
+            padding: 3px;
+            border-radius:10px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        img {
+            width: 1147px;
+            height: 450px;
+            display: flex;
+            margin: auto;
+            margin-top: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Esportes | Política | Tecnólogia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noiticias Sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vel accusamus a molestiae optio unde numquam odit quas ipsa neque ipsam voluptates, debitis nulla blanditiis officia sed reiciendis minus velit?</p>
+                    <aside>
+                        <p>Artigo escrito por jose da silva</p>
+                    </aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Felipe Araujo</p>
+    </footer>
+    <img src="imagens/img800x500.jpg" alt="imagem01">
+</body>
+</html>

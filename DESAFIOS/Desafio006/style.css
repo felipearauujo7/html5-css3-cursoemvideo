@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'aiqfome';
+    src: url(fontes/Lazytypebeta-BEmw.otf) format('opentype');
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.titulo {
+    background-color: rgb(80, 17, 139);
+    height: 90px;
+    
+}
+
+section h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: -8px;
+    font-family: 'aiqfome';
+}
+
+section button {
+    position: absolute;
+    top: 30px;
+    margin-left: 10px;
+    font-size: 30px;
+    border-radius: 7px;
+    background-color: rgb(31, 163, 130);
+    color: white;
+    cursor: pointer;
+}
+
+.subtitulo {
+    background-color: white;
+    height: 130px;
+    margin-top: 20px;
+    width: 1200px;
+    margin-left: 100px;
+}
+
+section h3 {
+    color: rgb(80, 17, 139);
+    text-align: center;
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 280px;
+    font-size: 30px;
+}
+
+.mensagem {
+    background-color: rgb(182, 168, 243);
+    height: 550px;
+    width: 1200px;
+    margin-left: 100px;
+    margin-top: -14px;
+    position: absolute;
+}
+
+.submensagem1 {
+    background-color: rgb(80, 17, 139);
+    height: 40px;
+    width: 650px;
+    margin-left: 280px;
+    margin-top: 50px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.submensagem2 {
+    background-color: rgb(80, 17, 139);
+    height: 40px;
+    width: 650px;
+    margin-left: 280px;
+    border-radius: 7px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+section pre {
+    margin-left: 180px;
+    color: white;
+    margin-top: 200px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.ajuda {
+    background-color: rgb(80, 17, 139);
+    height: 50px;
+    width: 120px;
+    margin-top: 550px;
+    margin-left: 1270px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+section p {
+    color: white;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 230px;
+}
+
+section h5 {
+    color: white;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
