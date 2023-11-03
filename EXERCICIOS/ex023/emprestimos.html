@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emprestimos</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    table {
+        border-collapse: collapse;
+        position: relative;
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: gray;
+    }
+
+    thead, tfoot {
+        background-color: gray;
+        color: white;
+    }
+
+    caption {
+        font-weight: bolder;
+        font-size: 1.3em;
+        padding: 10px;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: rgba(128, 128, 128, 0.288);
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+    }
+
+    #container {
+        overflow-x: auto;
+        height: 800px;
+    }
+</style>
+<body>
+    <div id="container">
+        <table>
+            <caption>EMPRÉSTIMOS</caption>
+            <thead>
+                <tr>
+                    <th>NOME</th>
+                    <th>CAPITAL</th>
+                    <th>PORCENTAGEM</th>
+                    <th>JUROS</th>
+                    <th>CAPITAL TOTAL</th>
+                    <th>RETORNO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Iago Primo</th>
+                    <td>1.000,00</td>
+                    <td>20%</td>
+                    <td>200,00</td>
+                    <td>1.200,00</td>
+                    <td>01/12</td>
+                </tr>
+                <tr>
+                    <th>Lucas Brenner</th>
+                    <td>50,00</td>
+                    <td>40%</td>
+                    <td>20,00</td>
+                    <td>70,00</td>
+                    <td>02/12</td>
+                </tr>
+                <tr>
+                    <th>João Pedro</th>
+                    <td>200,00</td>
+                    <td>25%</td>
+                    <td>50,00</td>
+                    <td>250,00</td>
+                    <td>08/11</td>
+                </tr>
+                <tr>
+                    <th>Lucas Brenner</th>
+                    <td>700,00</td>
+                    <td>25%</td>
+                    <td>175,00</td>
+                    <td>875,00</td>
+                    <td>10/11</td>
+                </tr>
+                <tr>
+                    <th>Lucas Brenner</th>
+                    <td>400,00</td>
+                    <td>20%</td>
+                    <td>80,00</td>
+                    <td>480,00</td>
+                    <td>12/11</td>
+                </tr>
+                <tr>
+                    <th>André Phelipe</th>
+                    <td>300,00</td>
+                    <td>20%</td>
+                    <td>60,00</td>
+                    <td>360,00</td>
+                    <td>12/11</td>
+                </tr>
+                <tr>
+                    <th>Lucas Brenner</th>
+                    <td>300,00</td>
+                    <td>20%</td>
+                    <td>60,00</td>
+                    <td>360,00</td>
+                    <td>13/11</td>
+                </tr>
+                <tr>
+                    <th>Lara Julianna</th>
+                    <td>170,00</td>
+                    <td>17.7%</td>
+                    <td>30,00</td>
+                    <td>200,00</td>
+                    <td>16/11</td>
+                </tr>
+                <tr>
+                    <th>Lucas Brenner</th>
+                    <td>150,00</td>
+                    <td>20%</td>
+                    <td>30,00</td>
+                    <td>180,00</td>
+                    <td>18/11</td>
+                </tr>
+                <tr>
+                    <th>Saída Careca</th>
+                    <td>300,00</td>
+                    <td>10%</td>
+                    <td>30,00</td>
+                    <td>- 330,00</td>
+                    <td>18/11</td>
+                </tr>
+                <tr>
+                    <th>Victor Techfilms</th>
+                    <td>200,00</td>
+                    <td>30%</td>
+                    <td>60,00</td>
+                    <td>260,00</td>
+                    <td>20/11</td>
+                </tr>
+                <tr>
+                    <th>Lucas Brenner</th>
+                    <td>50,00</td>
+                    <td>40%</td>
+                    <td>20,00</td>
+                    <td>70,00</td>
+                    <td>21/11</td>
+                </tr>
+                <tr>
+                    <th>Murilo</th>
+                    <td>1500</td>
+                    <td>XX</td>
+                    <td>250,00</td>
+                    <td>1500</td>
+                    <td>21/11</td>
+                </tr>
+                <tr>
+                    <th>João Pedro</th>
+                    <td>420,00</td>
+                    <td>19%</td>
+                    <td>80,00</td>
+                    <td>500,00</td>
+                    <td>24/11</td>
+                </tr>
+                <tr>
+                    <th>Lucas Brenner</th>
+                    <td>400,00</td>
+                    <td>20%</td>
+                    <td>80,00</td>
+                    <td>480,00</td>
+                    <td>26/11</td>
+                </tr>
+                <tr>
+                    <th>Saída Careca</th>
+                    <td>250,00</td>
+                    <td>10%</td>
+                    <td>25,00</td>
+                    <td>- 275,00</td>
+                    <td>26/11</td>
+                </tr>
+                <tr>
+                    <th>Saída Pele</th>
+                    <td>50,00</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                    <td>- 50,00</td>
+                    <td>10/11</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="5">CAPITAL INVESTIDO</th>
+                    <td>3.685,00</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
