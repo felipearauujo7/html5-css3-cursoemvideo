@@ -10,10 +10,12 @@
     body {
         font-family: Arial, Helvetica, sans-serif;
         background-color: black;
+        color: black;
+        margin: 0;
     }
 
     table {
-        width: 300px;
+        width: 100%;
         margin: auto;
         border-collapse: collapse;
         position: relative;
@@ -50,12 +52,18 @@
     th,
     td {
         border: 1px solid black;
-        padding: 2px;
+        padding: 8px;
+        text-align: center;
     }
 
     #container {
         overflow-x: auto;
-        height: 800px;
+        max-height: 900px;
+        overflow-y: scroll;
+    }
+
+    .saida {
+        background-color: rgba(255, 0, 0, 0.377);
     }
 </style>
 
@@ -76,242 +84,242 @@
             <tbody>
                 <tr>
                     <th>Lara Julianna</th>
-                    <td>70,00</td>
+                    <td>70.00</td>
                     <td>43%</td>
-                    <td>30,00</td>
-                    <td>100,00</td>
+                    <td>30.00</td>
+                    <td>100.00</td>
                     <td>01/03</td>
                 </tr>
                 <tr>
                     <th>Lucas Brenner</th>
-                    <td>500,00</td>
+                    <td>500.00</td>
                     <td>25%</td>
-                    <td>120,00</td>
-                    <td>620,00</td>
+                    <td>120.00</td>
+                    <td>620.00</td>
                     <td>01/03</td>
                 </tr>
                 <tr>
                     <th>João Pedro</th>
-                    <td>500,00</td>
+                    <td>500.00</td>
                     <td>25%</td>
-                    <td>120,00</td>
-                    <td>620,00</td>
+                    <td>120.00</td>
+                    <td>620.00</td>
                     <td>01/02</td>
                 </tr>
                 <tr>
                     <th>Lucas Brenner</th>
-                    <td>200,00</td>
+                    <td>200.00</td>
                     <td>30%</td>
-                    <td>60,00</td>
-                    <td>260,00</td>
+                    <td>60.00</td>
+                    <td>260.00</td>
                     <td>02/03</td>
                 </tr>
                 <tr>
                     <th>Iago Primo DF</th>
-                    <td>1000,00</td>
+                    <td>1000.00</td>
                     <td>20%</td>
-                    <td>200,00</td>
-                    <td>1200,00</td>
+                    <td>200.00</td>
+                    <td>1200.00</td>
                     <td>02/03</td>
                 </tr>
                 <tr>
                     <th>Lara Julianna</th>
-                    <td>400,00</td>
+                    <td>400.00</td>
                     <td>20%</td>
-                    <td>80,00</td>
-                    <td>480,00</td>
+                    <td>80.00</td>
+                    <td>480.00</td>
                     <td>03/02</td>
                 </tr>
                 <tr>
                     <th style="background-color: rgba(255, 0, 0, 0.377);">Saída Careca</th>
-                    <td>200,00</td>
+                    <td>200.00</td>
                     <td>10%</td>
-                    <td>20,00</td>
-                    <td>-220,00</td>
+                    <td>20.00</td>
+                    <td>-220.00</td>
                     <td>03/02</td>
                 </tr>
                 <tr>
                     <th style="background-color: rgba(255, 0, 0, 0.377);">Saída Careca</th>
-                    <td>300,00</td>
+                    <td>300.00</td>
                     <td>10%</td>
-                    <td>30,00</td>
-                    <td>-330,00</td>
+                    <td>30.00</td>
+                    <td>-330.00</td>
                     <td>05/02</td>
                 </tr>
                 <tr>
                     <th>Lara Julianna</th>
-                    <td>150,00</td>
+                    <td>150.00</td>
                     <td>20%</td>
-                    <td>30,00</td>
-                    <td>180,00</td>
+                    <td>30.00</td>
+                    <td>180.00</td>
                     <td>05/02</td>
                 </tr>
                 <tr>
                     <th>Maria Arcangela</th>
-                    <td>230,00</td>
+                    <td>230.00</td>
                     <td>20%</td>
-                    <td>50,00</td>
-                    <td>280,00</td>
+                    <td>50.00</td>
+                    <td>280.00</td>
                     <td>05/02</td>
                 </tr>
                 <tr>
                     <th>Leandro amg lara</th>
-                    <td>50,00</td>
+                    <td>50.00</td>
                     <td>40%</td>
-                    <td>20,00</td>
-                    <td>70,00</td>
+                    <td>20.00</td>
+                    <td>70.00</td>
                     <td>07/02</td>
                 </tr>
                 <tr>
                     <th>Lucas Brenner</th>
-                    <td>700,00</td>
+                    <td>700.00</td>
                     <td>25%</td>
-                    <td>175,00</td>
-                    <td>875,00</td>
+                    <td>175.00</td>
+                    <td>875.00</td>
                     <td>10/02</td>
                 </tr>
                 <tr>
                     <th>Amg Lucas Brenner</th>
-                    <td>150,00</td>
+                    <td>150.00</td>
                     <td>27%</td>
-                    <td>40,00</td>
-                    <td>190,00</td>
+                    <td>40.00</td>
+                    <td>190.00</td>
                     <td>10/02</td>
                 </tr>
                 <tr>
                     <th style="background-color: rgba(255, 0, 0, 0.377);">Saída Careca</th>
-                    <td>400,00</td>
+                    <td>400.00</td>
                     <td>10%</td>
-                    <td>40,00</td>
-                    <td>-440,00</td>
+                    <td>40.00</td>
+                    <td>-440.00</td>
                     <td>12/02</td>
                 </tr>
                 <tr>
                     <th>Lara Julianna</th>
-                    <td>120,00</td>
+                    <td>120.00</td>
                     <td>34%</td>
-                    <td>40,00</td>
-                    <td>160,00</td>
+                    <td>40.00</td>
+                    <td>160.00</td>
                     <td>12/02</td>
                 </tr>
                 <tr>
                     <th style="background-color: rgba(255, 0, 0, 0.377);">Saída Pele</th>
-                    <td>60,00</td>
+                    <td>60.00</td>
                     <td>34%</td>
-                    <td>20,00</td>
-                    <td>-80,00</td>
+                    <td>20.00</td>
+                    <td>-80.00</td>
                     <td>12/02</td>
                 </tr>
                 <tr>
                     <th>Lucas Brenner</th>
-                    <td>100,00</td>
+                    <td>100.00</td>
                     <td>30%</td>
-                    <td>30,00</td>
-                    <td>130,00</td>
+                    <td>30.00</td>
+                    <td>130.00</td>
                     <td>14/02</td>
                 </tr>
                 <tr>
                     <th>Murilo</th>
-                    <td>100,00</td>
+                    <td>100.00</td>
                     <td>60%</td>
-                    <td>30,00</td>
-                    <td>160,00</td>
+                    <td>30.00</td>
+                    <td>160.00</td>
                     <td>15/02</td>
                 </tr>
                 <tr>
                     <th>Lucas amg victor</th>
-                    <td>100,00</td>
+                    <td>100.00</td>
                     <td>30%</td>
-                    <td>30,00</td>
-                    <td>130,00</td>
+                    <td>30.00</td>
+                    <td>130.00</td>
                     <td>16/02</td>
                 </tr>
                 <tr>
                     <th>André Phelipe</th>
-                    <td>200,00</td>
+                    <td>200.00</td>
                     <td>20%</td>
-                    <td>40,00</td>
-                    <td>240,00</td>
+                    <td>40.00</td>
+                    <td>240.00</td>
                     <td>16/02</td>
                 </tr>
                 <tr>
                     <th style="background-color: rgba(255, 0, 0, 0.377);">Saída Luan</th>
-                    <td>100,00</td>
+                    <td>100.00</td>
                     <td>10%</td>
-                    <td>10,00</td>
-                    <td>110,00</td>
+                    <td>10.00</td>
+                    <td>110.00</td>
                     <td>16/02</td>
                 </tr>
                 <tr>
                     <th>Lucas Brenner</th>
-                    <td>400,00</td>
+                    <td>400.00</td>
                     <td>20%</td>
-                    <td>80,00</td>
-                    <td>480,00</td>
+                    <td>80.00</td>
+                    <td>480.00</td>
                     <td>17/02</td>
                 </tr>
                 <tr>
                     <th style="background-color: rgba(255, 0, 0, 0.377);">Saída Careca</th>
-                    <td>200,00</td>
+                    <td>200.00</td>
                     <td>10%</td>
-                    <td>20,00</td>
-                    <td>-220,00</td>
+                    <td>20.00</td>
+                    <td>-220.00</td>
                     <td>19/02</td>
                 </tr>
                 <tr>
                     <th style="background-color: rgba(255, 0, 0, 0.377);">Saída Pele</th>
-                    <td>70,00</td>
+                    <td>70.00</td>
                     <td>29%</td>
-                    <td>20,00</td>
-                    <td>-90,00</td>
+                    <td>20.00</td>
+                    <td>-90.00</td>
                     <td>19/02</td>
                 </tr>
                 <tr>
                     <th>Lucas Brenner</th>
-                    <td>100,00</td>
+                    <td>100.00</td>
                     <td>30%</td>
-                    <td>30,00</td>
-                    <td>130,00</td>
+                    <td>30.00</td>
+                    <td>130.00</td>
                     <td>22/02</td>
                 </tr>
                 <tr>
                     <th>João Pedro</th>
-                    <td>170,00</td>
+                    <td>170.00</td>
                     <td>24%</td>
-                    <td>40,00</td>
-                    <td>210,00</td>
+                    <td>40.00</td>
+                    <td>210.00</td>
                     <td>22/02</td>
                 </tr>
                 <tr>
                     <th>Lara Julianna</th>
-                    <td>290,00</td>
+                    <td>290.00</td>
                     <td>20%</td>
-                    <td>58,00</td>
-                    <td>348,00</td>
+                    <td>58.00</td>
+                    <td>348.00</td>
                     <td>23/02</td>
                 </tr>
                 <tr>
                     <th>Lucas Brenner</th>
-                    <td>150,00</td>
+                    <td>150.00</td>
                     <td>20%</td>
-                    <td>30,00</td>
-                    <td>180,00</td>
+                    <td>30.00</td>
+                    <td>180.00</td>
                     <td>24/02</td>
                 </tr>
                 <tr>
                     <th>João Pedro</th>
-                    <td>420,00</td>
+                    <td>420.00</td>
                     <td>19%</td>
-                    <td>80,00</td>
-                    <td>500,00</td>
+                    <td>80.00</td>
+                    <td>500.00</td>
                     <td>24/02</td>
                 </tr>
                 <tr>
                     <th>Lucas Brenner</th>
-                    <td>180,00</td>
+                    <td>180.00</td>
                     <td>22%</td>
-                    <td>40,00</td>
-                    <td>220,00</td>
+                    <td>40.00</td>
+                    <td>220.00</td>
                     <td>28/02</td>
                 </tr>
             </tbody>
